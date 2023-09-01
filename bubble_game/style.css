@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gllory";
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#main {
+  background-color: #90ef90;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#panel {
+  width: 80%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 1vw;
+  overflow: hidden;
+}
+#ptop {
+  background-color: rgb(72, 104, 72);
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  padding: 0 30%;
+}
+#elem {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  gap: 20px;
+}
+.box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1.5vw 2vw;
+  color: rgb(15, 136, 15);
+  font-size: 25px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+#pbtm {
+  width: 100%;
+  height: calc(100% -100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+#bubble {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(83, 194, 83);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #90ef90;
+  color: #fff;
+  cursor: pointer;
+}
+#bubble:hover {
+  background-color: #325532;
+}
+@media (max-width:600px){
+#ptop{
+  border-radius: 0;
+}
+  #panel{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    border-radius: none;
+  }
+  #ptop{
+    display: flex;
+    justify-content: center;
+    
+   
+  }
+}
